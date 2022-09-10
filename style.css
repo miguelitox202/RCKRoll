@@ -1,0 +1,24 @@
+* {
+    background-color: black;
+}
+
+video {
+    width: 300px;
+}
+
+.roll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60%;
+}
+
+@media (min-width: 720px) {
+    .roll {
+        padding-top:5%;
+    }
+
+    video {
+        width: 1000px;
+    }
+}
